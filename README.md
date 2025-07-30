@@ -18,7 +18,7 @@ The dashboard was built using the following tools and technologies:
 📁 .pbix File Format – Power BI project file format used for report design and sharing.
 
 🗂️ Data Source
-Source: Kaggle - Superstore Dataset
+Source: Dataset provided by Codebasics
 
 The dataset includes detailed information on:
 
