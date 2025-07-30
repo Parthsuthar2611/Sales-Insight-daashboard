@@ -7,15 +7,15 @@ A sleek, data-driven dashboard built to analyze and monitor sales performance me
 ⚙️ Tech Stack
 The dashboard was built using the following tools and technologies:
 
-Power BI Desktop – Primary platform for building the interactive dashboard.
+📊 Power BI Desktop – Primary platform for building the interactive dashboard.
 
-Power Query – Used for transforming raw data into a clean, usable format.
+📂 Power Query – Used for transforming raw data into a clean, usable format.
 
-DAX (Data Analysis Expressions) – Applied to create calculated columns and measures for dynamic KPIs.
+🧠 DAX (Data Analysis Expressions) – Applied to create calculated columns and measures for dynamic KPIs.
 
-Data Modeling – Relationships created among tables: Orders, Customers, Products, Categories, and Regions.
+📝 Data Modeling – Relationships created among tables: Orders, Customers, Products, Categories, and Regions.
 
-.pbix File Format – Power BI project file format used for report design and sharing.
+📁 .pbix File Format – Power BI project file format used for report design and sharing.
 
 🗂️ Data Source
 Source: Kaggle - Superstore Dataset
@@ -100,7 +100,4 @@ Targeted Marketing: Enables focused marketing for high-margin categories or high
 Strategic Planning: Supports data-driven decisions for resource allocation and supply chain adjustments.
 
 Sales Intelligence: Helps sales teams prioritize efforts toward profitable segments and product lines.
-
-Screenshot :
-(https://github.com/Parthsuthar2611/Sales-Insight-daashboard/blob/main/Key%20Insights.png)
 
