@@ -36,13 +36,13 @@ Retail businesses often struggle with monitoring performance trends across categ
 
 Key Questions:
 
-Which customer segment is generating the most profit?
+➵Which customer segment is generating the most profit?
 
-What regions are underperforming?
+➵What regions are underperforming?
 
-Are discounts impacting profitability?
+➵Are discounts impacting profitability?
 
-What are the best and worst performing categories?
+➵What are the best and worst performing categories?
 
 • Goal of the Dashboard
 To create a robust, visually intuitive dashboard that:
