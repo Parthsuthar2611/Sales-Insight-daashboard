@@ -101,3 +101,11 @@ Strategic Planning: Supports data-driven decisions for resource allocation and s
 
 Sales Intelligence: Helps sales teams prioritize efforts toward profitable segments and product lines.
 
+Key insights :
+ ![Image Alt](https://github.com/Parthsuthar2611/Sales-Insight-daashboard/blob/043c2304e4013076ad358ec11493b8e1cb608679/Key%20Insights.png)
+
+Performance insights :
+ ![Image Alt](https://github.com/Parthsuthar2611/Sales-Insight-daashboard/blob/043c2304e4013076ad358ec11493b8e1cb608679/Performance%20Insights.png)
+
+Profit analysis insight :
+ ![Image Alt](https://github.com/Parthsuthar2611/Sales-Insight-daashboard/blob/043c2304e4013076ad358ec11493b8e1cb608679/Profit%20Analysis.png)
