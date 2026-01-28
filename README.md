@@ -1,105 +1,131 @@
-# Sales-Insight-daashboard
-🚀 Interactive Power BI Sales Performance Dashboard
-A sleek, data-driven dashboard built to analyze and monitor sales performance metrics across regions, segments, and product categories—empowering stakeholders with real-time business intelligence.
+# 📊 Sales Insight Dashboard (Power BI)
 
-🎯 The SalesPulse Dashboard is a dynamic and interactive Power BI report designed to provide a clear overview of sales, profits, and discounts across various customer segments, product categories, and regions. It is built to help business managers, analysts, and decision-makers track KPIs and uncover actionable insights.
+## 🚀 Overview
 
-⚙️ Tech Stack
-The dashboard was built using the following tools and technologies:
+The **Sales Insight Dashboard** is an interactive **Power BI sales analytics solution** designed to analyze and monitor sales performance across **regions, customer segments, and product categories**. The dashboard enables business users and analysts to track key KPIs, uncover trends, and derive actionable insights to support data-driven decision-making.
 
-📊 Power BI Desktop – Primary platform for building the interactive dashboard.
+This project demonstrates an **end-to-end analytics workflow** — from database-level data exploration and preprocessing to interactive visualization and insight generation.
 
-📂 Power Query – Used for transforming raw data into a clean, usable format.
+---
 
-🧠 DAX (Data Analysis Expressions) – Applied to create calculated columns and measures for dynamic KPIs.
+## 🎯 Objectives
 
-📝 Data Modeling – Relationships created among tables: Orders, Customers, Products, Categories, and Regions.
+* Track overall **sales, profit, quantity, and discount performance**
+* Identify **high-performing and underperforming regions, segments, and categories**
+* Analyze the **impact of discounts on profitability**
+* Enable stakeholders to make informed decisions on **pricing, marketing, and inventory planning**
 
-📁 .pbix File Format – Power BI project file format used for report design and sharing.
+---
 
-🗂️ Data Source
-Source: Dataset provided by Codebasics
+## 🧰 Tech Stack
 
-The dataset includes detailed information on:
+* **Power BI Desktop** – Dashboard development and visualization
+* **Power Query** – Data cleaning and transformation
+* **DAX (Data Analysis Expressions)** – Calculated measures and KPIs
+* **MySQL Database** – Data storage, exploration, and preprocessing
+* **Data Modeling** – Relationships between Orders, Customers, Products, Categories, and Regions
+* **.pbix** – Power BI project file format
 
-Orders (Sales, Quantity, Profit, Discount)
+---
 
-Customer details (Segment, Region)
+## 🗄️ Data Source
 
-Product details (Category, Sub-category, Product Name)
+* **Dataset Provider:** Codebasics
+* **Storage:** MySQL Database
 
-Shipping dates and modes
+### Dataset Includes:
 
-🌟 Features / Highlights
-• Business Problem
-Retail businesses often struggle with monitoring performance trends across categories, identifying unprofitable segments, and optimizing discounts. Raw data can’t answer key strategic questions without visual context.
+* **Orders:** Sales, Quantity, Profit, Discount
+* **Customers:** Segment, Region
+* **Products:** Category, Sub-category, Product Name
+* **Logistics:** Shipping dates and shipping modes
 
-Key Questions:
+---
 
-➵Which customer segment is generating the most profit?
+## 🔍 Database Exploration & Preprocessing (MySQL)
 
-➵What regions are underperforming?
+Before visualization, the data was loaded into **MySQL** to perform initial exploration and validation.
 
-➵Are discounts impacting profitability?
+### Key Database Activities:
 
-➵What are the best and worst performing categories?
+* Verified data completeness and consistency across tables
+* Performed **exploratory SQL analysis** to understand sales distribution by region, segment, and category
+* Checked for negative profit scenarios and high-discount transactions
+* Aggregated sales and profit metrics to validate KPIs used in Power BI
+* Prepared clean, analysis-ready tables for efficient Power BI integration
 
-• Goal of the Dashboard
-To create a robust, visually intuitive dashboard that:
+This step ensured **data accuracy and reliability** before building visual reports.
 
-Tracks overall sales performance
+---
 
-Identifies trends in profit margins, product categories, and segments
+## 📊 Dashboard Features & Visuals
 
-Empowers stakeholders to make data-backed decisions on marketing, inventory, and sales strategies
+### 🔹 KPI Cards (Top Panel)
 
-• Walkthrough of Key Visuals
- •KPI Cards (Top Panel)
+* Total Sales
+* Total Profit
+* Quantity Sold
+* Total Discount
 
- •Total Sales, Profit, Quantity Sold, Discount
+Provides a quick snapshot of overall business performance.
 
- •Snapshot of overall performance
+---
 
- •Sales & Profit Trend (Line Chart)
+### 🔹 Sales & Profit Trend (Line Chart)
 
- •Tracks monthly performance over time
+* Monthly sales and profit trends
+* Helps identify **seasonality, growth patterns, and performance dips**
 
- •Helps spot seasonal trends or slumps
+---
 
- •Sales by Region (Map Visualization)
+### 🔹 Sales by Region (Map Visualization)
 
- •Interactive geo-map showing sales distribution across U.S. states
+* Interactive geographic map showing sales distribution across regions
+* Enables regional performance comparison
 
- •Useful for regional performance comparison
+---
 
- •Category & Sub-category Breakdown (Bar Charts)
+### 🔹 Category & Sub-category Analysis (Bar Charts)
 
- •Compares sales and profit by product type
+* Sales and profit comparison by product category and sub-category
+* Highlights **profit-driving vs loss-making categories**
 
- •Reveals which categories drive or drain profit
+---
 
- •Sales vs. Discount (Scatter Plot)
+### 🔹 Sales vs Discount Analysis (Scatter Plot)
 
- •Visual correlation between discount percentage and profit
+* Visualizes relationship between discount percentage and profit
+* Helps assess **discount effectiveness and risk of margin erosion**
 
- •Helps assess discount effectiveness
+---
 
- •Segment Performance (Stacked Column Chart)
+### 🔹 Customer Segment Performance (Stacked Column Chart)
 
- •Breaks down sales and profit by Customer Segment (Consumer, Corporate, Home Office)
+* Breaks down sales and profit by customer segments (Consumer, Corporate, Home Office)
+* Supports targeted marketing and segmentation strategies
 
- •Top 10 & Bottom 10 Products (Tables)
+---
 
- •Quick view of best and worst-performing products
+### 🔹 Top & Bottom Products (Tables)
 
-• Business Impact & Insights
-Profit Optimization: Identifies products or regions where high discounts lead to negative profit.
+* Top 10 and Bottom 10 products by sales and profit
+* Enables quick identification of **best sellers and underperformers**
 
-Targeted Marketing: Enables focused marketing for high-margin categories or high-performing regions.
+---
 
-Strategic Planning: Supports data-driven decisions for resource allocation and supply chain adjustments.
+## 💡 Business Impact & Insights
 
-Sales Intelligence: Helps sales teams prioritize efforts toward profitable segments and product lines.
+* **Profit Optimization:** Identified regions and products where heavy discounts resulted in negative profit
+* **Targeted Marketing:** Highlighted high-margin categories and strong customer segments
+* **Strategic Planning:** Supported data-driven decisions for inventory allocation and regional focus
+* **Sales Intelligence:** Helped prioritize efforts toward profitable products and customer segments
+
+---
+
+## 📌 Conclusion
+
+The **Sales Insight Dashboard** showcases a complete BI and analytics pipeline — from **MySQL-based data exploration and validation** to **Power BI-driven visualization and insight delivery**. The project highlights practical skills in SQL, data modeling, DAX, and business intelligence reporting, making it a strong portfolio project for **Data Analyst and BI Analyst roles**.
+
 
 Key insights :
  ![Image Alt](https://github.com/Parthsuthar2611/Sales-Insight-daashboard/blob/043c2304e4013076ad358ec11493b8e1cb608679/Key%20Insights.png)
