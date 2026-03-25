@@ -25,6 +25,8 @@ This project demonstrates an **end-to-end analytics workflow** — from database
 * **MySQL Database** – Data storage, exploration, and preprocessing
 * **Data Modeling** – Relationships between Orders, Customers, Products, Categories, and Regions
 * **.pbix** – Power BI project file format
+* **AWS S3** – Cloud storage for structured data  
+* **AWS Athena** – Serverless SQL querying on cloud data  
 
 ---
 
@@ -57,6 +59,15 @@ Before visualization, the data was loaded into **MySQL** to perform initial expl
 This step ensured **data accuracy and reliability** before building visual reports.
 
 ---
+
+To extend the project beyond traditional database analysis, a cloud-based workflow was implemented:
+
+• Exported and cleaned structured data from MySQL into CSV format  
+• Stored the dataset in AWS S3 for scalable storage  
+• Queried data using AWS Athena to perform SQL-based analysis on cloud data  
+• Resolved real-world issues such as CSV formatting errors, schema mismatches, and invalid data handling  
+
+This step demonstrates how analytics workflows scale from local databases to cloud environments.
 
 ## 📊 Dashboard Features & Visuals
 
